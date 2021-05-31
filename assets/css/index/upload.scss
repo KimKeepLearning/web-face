@@ -1,0 +1,58 @@
+@import "../variables";
+
+.upload{
+  margin: 20px auto;
+  
+  .el-upload {
+    border: 2px dashed $border-color;
+    border-radius: 5px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    .el-upload-dragger {
+      
+      border: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      
+      &:hover{
+        border: none;
+      }
+      .el-icon-upload{
+        color: $border-color;
+      }
+      .el-upload__text{
+        font-size: 16px;
+        em{
+          color: $border-color;
+        }
+      }
+    }
+  }
+  
+}
+.showSmall {
+  width: 400px;
+  height: 250px;
+  margin: 20px auto;
+  img {
+    // width: 100%;
+    height: 100%;
+    // height: 250px;
+  }
+}
+.btn {
+  margin-bottom: 20px;
+  background-color: $bg-color;
+  color: rgb(253, 253, 253);
+  border-color: $border-color;
+  width: 150px;
+  &:hover,&:active,&:visited, &:focus{
+    background-color: $border-color;
+    color: white;
+    border-color:$border-color
+  }
+  
+}
