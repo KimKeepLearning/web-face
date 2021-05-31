@@ -4,21 +4,21 @@
 
 我的照片：
 
-![2021-05-31 221004](E:\2-JOB\联想小新\简历项目2\web-face\assets\md-img\2021-05-31 221004.png)
+![2021-05-31 221004](assets/md-img/2021-05-31 221004.png)
 
 小龙：
 
-![2021-05-31 221533](E:\2-JOB\联想小新\简历项目2\web-face\assets\md-img\2021-05-31 221533.png)
+![2021-05-31 221533](assets/md-img/2021-05-31 221533.png)
 
 # 前端页面
 
 **初始页面**
 
-<img src="C:\Users\18430\AppData\Roaming\Typora\typora-user-images\image-20210531223527198.png" alt="image-20210531223527198" style="zoom: 80%;" />
+<img src="assets/md-img/image-20210531223527198.png" alt="image-20210531223527198" style="zoom: 80%;" />
 
 开始搜索按钮是不可用状态，当上传图片后，预览上传的图片，并且开始搜索按钮正常显示
 
-<img src="C:\Users\18430\AppData\Roaming\Typora\typora-user-images\image-20210531223653713.png" alt="image-20210531223653713" style="zoom:80%;" />
+<img src="assets/md-img/image-20210531223653713.png" alt="image-20210531223653713" style="zoom:80%;" />
 
 实现：v-if + v-else.
 
@@ -28,7 +28,7 @@
 
 原本以为数据集里人脸图片大小会差很多，所以用了瀑布流布局，效果是
 
-![image-20210531224247480](C:\Users\18430\AppData\Roaming\Typora\typora-user-images\image-20210531224247480.png)
+![image-20210531224247480](assets/md-img/image-20210531224247480.png)
 
 没想到啊没想到，图片大小比较统一，瀑布流布局优势体现不出来，罢了罢了，权当练习。
 
